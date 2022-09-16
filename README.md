@@ -2,4 +2,4 @@
 
 This is a work in progress.
 
-Author: Angelo-Segretto-IV
+Author: Angelo Segrett IV
