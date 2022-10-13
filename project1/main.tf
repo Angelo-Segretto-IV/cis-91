@@ -38,7 +38,7 @@ resource "google_compute_network" "vpc_network" {
 resource "google_compute_instance" "vm_instance" {
   name         = "cis91"
   machine_type = "e2-micro"
-
+ 
   boot_disk {
     initialize_params {
       image = "ubuntu-os-cloud/ubuntu-2004-lts"
@@ -52,6 +52,8 @@ resource "google_compute_instance" "vm_instance" {
   }
 }
 
+ 
+  
 resource "google_compute_firewall" "default-firewall" {
   name    = "default-firewall"
   network = google_compute_network.vpc_network.name

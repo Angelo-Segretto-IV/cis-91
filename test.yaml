@@ -1,0 +1,12 @@
+
+
+contatcs:
+  - name: Mike
+    phone: 555-1221
+    title: instructor
+  - name: Dan
+    phone: 555-1211
+    title: student
+  - name: Nancy
+    phone: 555-2121
+    title: student

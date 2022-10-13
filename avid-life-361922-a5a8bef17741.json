@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "avid-life-361922",
+  "private_key_id": "a5a8bef177419616611fa45a9793b8807c8d08cf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCsqxGqu5gKoyF8\nv+9XhkENUpKB2tcEj30aD1fVm+DgNxTc4Ze+Pd1v+zQEOjRpHvDwWKO+6h4Y4lgy\nSwsmk9NsSiaNecCDsh3eQSoYzqi523ddzS4LMAISdqd3pmxfobMCjdHqNEJU0Lp3\n2wKmWLL4o0+RmzVJ5wPedS2ElLioaSpTytMIEeyhOipR1MYMBMfdasalKdZoBFfP\nyIeENhdMk8Vhs3sE9T9mqJ6+bLZ/OdzRVU2mgVv5aHguHtewXgAVL8lNG38HR0M6\n/2v2Z8ETCaKtCwDLqDVZeWNtS4GeKMU6jnADEO9unBb8LUC7Z85oBhk2BJJzmCof\ntMVSKTQpAgMBAAECggEAAT4gnBb04CwOY08fp4Sa1pVf4o6y+iBs6RFv3g9czfWi\nMSNv1nmsLKXP2Qabi/TMt8jGMkCNw5DAIRSIhFg6BE8q+d0Eyq3Z0y4ANzooMrY7\n+gaDrKbwIjaNEVUMS0qRoZS9twQgmhWqfI8B9N/cjIzjAgxDlOrptzcmrbaYTEtP\nxjiElTj3aSRuYrXizOg1LZHJKKZp/wvDmCI8EVFVPUdo8XOPmo+mVS/gc7ieyPs4\nxhaS4fcWyg5qG3Ib2XCmWeBB9ZikIGHByDmWvbtPx+BxTa0+3L4200oms0J9b/q8\nnYsgQDU63jCVl+FMNlcqpW5B7ckEeawLFBZ6kN4cAQKBgQDUw4/R2JdXPexg9Gf6\n5Ayz6nqZFYBAdixF1QsooKYILX3H9oFRvoNVGrhF16kuqbqTXHp6bUaGVONn4Vnc\nvZEQoj2xF0NWGzrJ68rZ1/rA5LciIjRrt6nKRa7H6gZm6cgKhEf8Plct0DieU1d5\nBGi3vIGtGpKItAOmDvON7hhsqQKBgQDPwaTEiaPZ5aaxaCH6Tq5l2FzgbyXjTyWy\n3ybq+2hRAWy12aUDwjyaDqyy2vb/ozK11uevpuHGXdnTZ/iQFuTuE/6q1XNbkRwf\n8gMEd2i+CxpRzO/68Qj3BBBylUIxbS6nYe0wpbVfg4xLuHQIrhtRr+lcWBUV24Wi\nkc8ndoO7gQKBgBJZW0npuAOaH4ytB1qn2ECb9D7Hj+v/RQowuWmjkS4bXkGkjLqU\nB5eLWmELnFed461ZyGZOjkp/f60xziIvZxdcJp3jN7dxWbyYTUJEUifYkcKr2IGB\nsW70W4J6OFsfxlTB28NxTOtyja952I1jR/SwmS5ooEKR486qc27GHe0hAoGBAK5R\nj3us9YNl8tjWQ/QvQpuH0F4sRIEWrs4H+TKfIeceJ+XpqVCfEJQ/Dd7AZREYEPuM\nRzgV8UitBJEioufbndi5hCw5DyLcfdm8CZYczxDuZfYO26kVx2zjxx0taa3pK4Uc\nYJU55RYwXW5HZWzHEXsX+9kUuxRs7hL6/vLguSWBAoGBAKN5IcZen+sBkKt6uVWV\nyNxLFP+4TnaZ3CVpxK6Je4yo177VQQk/Eds6VxthtHS9UUmdoKbozHcdUVpHaubY\nxcxR6L+Udxh+Tn9RCv3W45d7bh5QpRaNR/tXYj9FfvGDv18uaotg7YvYKWVkpfhb\nbW2bng5lSh+1JFDH9/S1AkuS\n-----END PRIVATE KEY-----\n",
+  "client_email": "sa-for-terraform@avid-life-361922.iam.gserviceaccount.com",
+  "client_id": "116770385921121316995",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sa-for-terraform%40avid-life-361922.iam.gserviceaccount.com"
+}
