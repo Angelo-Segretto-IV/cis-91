@@ -8,8 +8,18 @@
         update_cache: yes
         cache_valid_time: 3600
         name:
-          - python3-pip 
-          - python3-venv
-          - nginx
+          - php
           - apache2
-          - nodejs
+          - php-xml
+
+- name: Ansible Copy Example Local to Remote
+  hosts: remoteserver
+  tasks:
+    - name: copying file with playbook
+      become: true 
+      copy:
+        src: ~/home/ang2693/dokuwiki/backup
+        dest: /etc/cron.hourly/
+        owner: apache
+        group: apache        
+        mode: 0644

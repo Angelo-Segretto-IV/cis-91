@@ -1,6 +1,6 @@
 
 variable "credentials_file" {
-  default = "/home/ang2693/avid-life-361922-a5a8bef17741.json"
+  default = "/home/ang2693/avid-life-361922-5fc5b1c942cc.json"
 }
 
 variable "project" {
@@ -12,7 +12,7 @@ variable "region" {
 }
 
 variable "zone" {
-  default = "us-central1-c"
+  default = "us-central1-a"
 }
 
 terraform {
