@@ -2,7 +2,7 @@
 
 # Put this file in /etc/cron.hourly/backup
 
-TARGET="gs://your-bucket-id"
+TARGET="gs://dokuwiki_bucket"
 
 tar_file=/tmp/dokuwiki-backup-$(date +%s).tar.gz
 tar -czf $tar_file /var/www/html 2>/dev/null 

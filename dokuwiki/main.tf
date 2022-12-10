@@ -32,11 +32,11 @@ provider "google" {
 }
 
 resource "google_compute_network" "vpc_network" {
-  name = "cis91-network"
+  name = "dokuwiki-network"
 }
 
 resource "google_compute_instance" "vm_instance" {
-  name         = "cis91"
+  name         = "dokuwiki"
   machine_type = "e2-micro"
 
   boot_disk {
@@ -45,12 +45,29 @@ resource "google_compute_instance" "vm_instance" {
     }
   }
 
+   service_account {
+    email  = google_service_account.dokuwiki-service-account.email
+    scopes = ["cloud-platform"]
+  }
+
   network_interface {
     network = google_compute_network.vpc_network.name
     access_config {
-    }
   }
 }
+}
+resource "google_service_account" "dokuwiki-service-account" {
+  account_id   = "dokuwiki-service-account"
+  display_name = "dokuwiki-service-account"
+  description = "Service account for dokuwiki"
+}
+
+resource "google_project_iam_member" "project_member" {
+  role = "roles/storage.admin"
+  member = "serviceAccount:${google_service_account.dokuwiki-service-account.email}"
+}
+
+
 
 resource "google_compute_firewall" "default-firewall" {
   name    = "default-firewall"

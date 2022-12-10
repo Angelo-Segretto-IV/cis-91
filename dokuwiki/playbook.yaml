@@ -13,13 +13,13 @@
           - php-xml
 
 - name: Ansible Copy Example Local to Remote
-  hosts: remoteserver
+  hosts: all
   tasks:
     - name: copying file with playbook
       become: true 
       copy:
-        src: ~/home/ang2693/dokuwiki/backup
-        dest: /etc/cron.hourly/
-        owner: apache
-        group: apache        
+        src: /home/ang2693/cis-91/dokuwiki/backup
+        dest: /etc/cron.hourly
+        owner: root
+        group: root        
         mode: 0644
